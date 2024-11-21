@@ -1,0 +1,59 @@
+body { 
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgb(53 34 89), rgb(127 39 178), rgb(210 91 254), rgb(53 34 89));
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.form_auth {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0px 16px white;
+    padding: 32px;
+    width: 350px;
+    border-radius: 15px;
+
+}
+.btn_reg {
+    background-color: aqua;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-family: Helvetica, serif;
+    font-size: 16pt;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    height: 40px;
+    cursor: pointer;
+}
+.lp {
+    margin-bottom: 0;
+    font-family: Helvetica, serif;
+    font-size: 12pt;
+}
+.title {
+    font-family: Helvetica, serif;
+    font-size: 22pt;
+    text-align: center;
+}
+.inp {
+    background-color: aliceblue;
+    font-family: Helvetica, serif;
+    font-size: 12pt;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #000;
+}
+.a_s {
+    font-family: Helvetica, serif;
+    font-size: 14pt;
+}
+.log {
+    font-family: Helvetica, serif;
+    font-size: 46pt;
+    color: white;
+    text-shadow: 0 0px 16px white;
+}
